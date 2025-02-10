@@ -1,4 +1,4 @@
-# Zero2Go Omini Board Setup
+# Zero2Go Omini Board
 
 [Zero2Go Omini Setup](https://chatgpt.com/share/67aa4a66-2e44-8002-8ddc-ad1dd7bf2434)
 
@@ -6,6 +6,8 @@
 
 - Raspberry Pi Zero 2 W
 - [Zero2Go Omini – Multi-Channel Power Supply for Raspberry Pi](https://www.adafruit.com/product/4114)
+
+## The Software
 
 Below is one common approach to getting your Raspberry Pi 4 to “wake up” when you press the Zero2Go Omini’s power‐button and then run a safe shutdown when the vehicle’s 12 V disappears (for example, when the engine is turned off).
 
