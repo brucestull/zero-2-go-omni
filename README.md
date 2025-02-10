@@ -2,6 +2,11 @@
 
 [Zero2Go Omini Setup](https://chatgpt.com/share/67aa4a66-2e44-8002-8ddc-ad1dd7bf2434)
 
+## The Hardware
+
+- Raspberry Pi Zero 2 W
+- [Zero2Go Omini – Multi-Channel Power Supply for Raspberry Pi](https://www.adafruit.com/product/4114)
+
 Below is one common approach to getting your Raspberry Pi 4 to “wake up” when you press the Zero2Go Omini’s power‐button and then run a safe shutdown when the vehicle’s 12 V disappears (for example, when the engine is turned off).
 
 > **Note:** The Zero2Go Omini is a hardware power‐management board. It is designed so that when you press its power button it “latches” the 5 V supply to the Pi. In your installation you wire one of its signal outputs (typically a “vehicle power detect” or “IGN” signal) to one of the Pi’s GPIO pins. Then, when the 12 V supply is removed (i.e. when the vehicle is turned off) the board can trigger a safe shutdown by way of your custom code before it finally cuts the power. (Please consult the Zero2Go Omini manual for the exact wiring details and signal polarity.) 
